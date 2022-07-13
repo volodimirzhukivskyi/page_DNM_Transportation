@@ -28,7 +28,7 @@ const FilterNav = () => {
       <Button className={styles.addButton}>
         <img
           className={styles.addButtonImg}
-          src="/image/other-icons/cross.png"
+          src={`${process.env.PUBLIC_URL}/image/other-icons/cross.png`}
           alt="cross"
         />
         <span className={styles.hideText}>New Supply</span>

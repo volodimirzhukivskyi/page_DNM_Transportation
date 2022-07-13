@@ -1,0 +1,61 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+html,
+body {
+    margin: 0;
+    padding: 0;
+
+    color: var(--black);
+
+    font-family: "Noto Sans KR", sans-serif;
+}
+li{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+margin: 0;
+    color: inherit;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.visualyHidden {
+    position: absolute;
+
+    overflow: hidden;
+
+    width: 0;
+    height: 0;
+}
+p,h3,h2{
+    margin: 0;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+:root {
+    --black: #1F2937;
+    --white: 	#FFFFFF;
+    --gray-light: #D1D5DB;
+    --gray:#A4A4A4;
+    --gray-dark: #6c7077;
+    --primary: #1E40AF;
+    --primary-midle: #4F46E5;
+    --primary-hover: #4925D5;
+    --red: #FC836D;
+    --red-light: #fcbaac;
+    --green: #14804A;
+    --green-light: #E1FCEF;;
+    --blue-light: #DBEAFE;
+    --font-family: "Open Sans", sans-serif;
+
+
+}

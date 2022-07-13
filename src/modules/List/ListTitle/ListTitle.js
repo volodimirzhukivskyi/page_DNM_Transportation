@@ -12,10 +12,15 @@ const ListTitle = ({ title, hideButtons }) => {
       </h3>
       {!hideButtons && (
         <div className={styles.buttonsContainer}>
-          <img src="/image/other-icons/arrow_up.png" alt="arrow_up" />
+          <img
+            src={`${process.env.PUBLIC_URL}/image/other-icons/arrow_up.png`}
+            alt="arrow_up"
+          />
 
           <img
-            src={`/image/other-icons/arrow_down${active ? "_active" : ""}.png`}
+            src={`${process.env.PUBLIC_URL}/image/other-icons/arrow_down${
+              active ? "_active" : ""
+            }.png`}
             alt={`"arrow_down${active ? "_active" : ""}"`}
           />
         </div>

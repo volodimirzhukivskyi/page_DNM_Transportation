@@ -7,7 +7,7 @@ function Link(props) {
   return (
     <a href={"#"} className={cn(className, styles.link)} onClick={onClick}>
       <img
-        src={`/image/icons-nav/${text}.png`}
+        src={`${process.env.PUBLIC_URL}/image/icons-nav/${text}.png`}
         className={styles.img}
         alt={text}
       />{" "}

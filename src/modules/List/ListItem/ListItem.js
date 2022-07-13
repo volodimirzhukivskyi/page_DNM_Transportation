@@ -22,9 +22,18 @@ const ListItem = ({ type, children }) => {
   if (type === "icons") {
     return (
       <div className={styles.icons}>
-        <img src="/image/other-icons/jump-rope.svg" alt="jump-rope" />
-        <img src="/image/other-icons/pizza.svg" alt="pizza" />
-        <img src="/image/other-icons/swimming.svg" alt="swimming" />
+        <img
+          src={`${process.env.PUBLIC_URL}/image/other-icons/jump-rope.svg`}
+          alt="jump-rope"
+        />
+        <img
+          src={`${process.env.PUBLIC_URL}/image/other-icons/pizza.svg`}
+          alt="pizza"
+        />
+        <img
+          src={`${process.env.PUBLIC_URL}/image/other-icons/swimming.svg`}
+          alt="swimming"
+        />
       </div>
     );
   }

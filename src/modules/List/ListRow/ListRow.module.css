@@ -20,7 +20,7 @@
         align-items: center;
         border-bottom:1px solid #E9EDF5;
     }}
-@media (max-width: 800px) {
+@media (max-width: 400px) {
     .hideBlockTwo{
         display: none;
     }

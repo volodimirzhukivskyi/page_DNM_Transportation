@@ -13,7 +13,7 @@ const Filter = ({ setIsOpen }) => {
           <label className={styles.label}>
             <img
               className={styles.inputImg}
-              src="/image/icons-nav/Search%20Supply.png"
+              src={`${process.env.PUBLIC_URL}/image/icons-nav/Search%20Supply.png`}
               alt="Search"
             />
             <input
@@ -29,7 +29,7 @@ const Filter = ({ setIsOpen }) => {
           >
             <img
               className={styles.buttonImg}
-              src="/image/other-icons/Sort.png"
+              src={`${process.env.PUBLIC_URL}/image/other-icons/Sort.png`}
               alt="Sort"
             />
             Filters
@@ -51,7 +51,7 @@ const Filter = ({ setIsOpen }) => {
             </select>
             <img
               className={styles.imgSelect}
-              src="/image/other-icons/arrow.png"
+              src={`${process.env.PUBLIC_URL}/image/other-icons/arrow.png`}
               alt=""
             />
           </div>
