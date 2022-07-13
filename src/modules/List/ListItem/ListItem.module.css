@@ -1,0 +1,16 @@
+.textName{
+color: var(--primary-midle);
+}
+.text{
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0;
+}
+.costText{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #6B7280;
+}
+.costNum{
+color: var(--black);
+}

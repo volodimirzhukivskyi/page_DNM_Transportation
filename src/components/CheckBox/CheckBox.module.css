@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    align-items: center;
+}
+.random{
+    display: none;
+}
+.checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 1px rgba(70, 79, 96, 0.16);
+    border-radius: 4px;
+    margin-right: 8px;
+}
+.checkbox img {
+    width: 12px;
+
+
+}
+.label{
+margin: 10px 0
+}
+.lightBg{
+    background: white;
+}

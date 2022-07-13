@@ -1,0 +1,17 @@
+.tag{
+    border-radius: 4px;
+    padding: 2px 8px;
+    font-weight: 500;
+    font-size: 12px;
+display: inline-block;
+}
+.blueTag{
+    background: var(--blue-light);
+    color: var(--primary);
+    line-height: 16px;
+}
+.greenTag{
+    background: var(--green-light);
+    color: var(--green);
+    line-height: 18px;
+}

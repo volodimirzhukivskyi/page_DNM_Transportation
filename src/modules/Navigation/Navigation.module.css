@@ -1,0 +1,40 @@
+.container{
+    padding: 27px 8px;
+    background: var(--black);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.headerNav {
+    display: flex;
+    flex-direction: column;
+}
+.footerNav{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+   color: #6B7280;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 16px;
+    padding: 0 10px;
+
+}
+.li{
+padding-top: 40px;
+}
+.ul{
+    padding: 0;
+    list-style: none;
+}
+@media (max-width: 930px) {
+    .hideText{
+        display: none;
+    } .hideBlockTitle{
+        display: none;
+    }
+.logoAdaptive{
+    font-size: 30px;
+}}

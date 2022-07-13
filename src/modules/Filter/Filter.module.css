@@ -1,0 +1,90 @@
+.wrapper{
+    padding: 20px;
+    background:     rgb(249, 250, 253);;
+}
+.filterContainer{
+    display: flex;
+
+}
+.filterBlock{
+    background: var(--white);
+    border: 1px solid var(--gray-light);
+    overflow: hidden;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    margin:10px  10px 0 0;
+}
+.label{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.input{
+    border: none;
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+.input:focus{
+    outline: none;
+}
+.inputImg{
+  margin: 0 10px;
+}
+.buttonContainer{
+    display: flex;
+    align-items: center;
+    border: none;
+   font-weight: 500;
+   font-size: 14px;
+    line-height: 20px;
+    color: #374151;
+    border-left: 1px solid var(--gray-light);
+}
+.buttonImg{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+.chooseItem{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-right: 1px solid var(--gray-light) ;
+cursor: pointer;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6B7280;
+}
+.chooseItem:hover{
+    background:var(--gray-light) ;
+    color: var(--white);
+}
+.filterBlock:last-child{
+border-right: none;
+}
+.chooseSelect{
+    appearance: none;
+
+}
+.selectContainer{
+    position: relative;
+
+}
+.imgSelect{
+    width: 13px;
+    height: 8px;
+    position: absolute;
+    top: 15px;
+    right: 8px;
+}
+@media (max-width: 800px) {
+    .filterContainer{
+        flex-direction: column;
+        align-items: center;
+    }
+}
