@@ -16,8 +16,7 @@
     font-weight: bold;
     font-size: 18px;
 }
-@media(max-width: 1400px){
-    .wrapper{
-        height: auto;
-    }
-}
+@media (max-width: 950px) {
+    .content{
+        margin-left: 40px;
+    } }

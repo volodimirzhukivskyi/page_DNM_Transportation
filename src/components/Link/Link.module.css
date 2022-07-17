@@ -1,28 +1,33 @@
-.link{
+
+
+
+.link {
     padding: 10px;
-    border-radius: 6px ;
+    border-radius: 6px;
     border: none;
     cursor: pointer;
     display: flex;
     align-items: center;
 }
-.link:hover{
-background: #4B5563}
-.link:hover .img{
+
+.link:hover {
+    background: #4B5563
+}
+
+.link:hover .img {
     filter: brightness(10);
 }
-.img{
+
+.img {
     width: 20px;
     height: 20px;
 }
-.text{
-    margin: 0 15px;
+
+.text {
+    margin: 0 20px;
     font-size: 14px;
     color: white;
     font-weight: 500;
 
 }
-@media (max-width: 930px) {
-    .hideText{
-       display: none;
-    }}
+

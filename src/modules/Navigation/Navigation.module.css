@@ -1,9 +1,14 @@
 .container{
+    overflow-x: hidden;
+    overflow-y: scroll;
     padding: 27px 8px;
     background: var(--black);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+.container::-webkit-scrollbar{
+    width: 0;
 }
 .headerNav {
     display: flex;
@@ -29,12 +34,24 @@ padding-top: 40px;
     padding: 0;
     list-style: none;
 }
-@media (max-width: 930px) {
+@media (max-width: 950px) {
     .hideText{
         display: none;
     } .hideBlockTitle{
         display: none;
     }
+      .container{
+          padding: 15px 0 ;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          width: 40px;
+          overflow-x: hidden;
+          overflow-y: scroll;
+      }
+      .container:hover{
+          width: auto;
+      }
 .logoAdaptive{
     font-size: 30px;
 }}

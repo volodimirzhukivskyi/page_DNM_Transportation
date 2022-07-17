@@ -5,7 +5,7 @@ import cn from "classnames";
 function Link(props) {
   const { text, onClick, className } = props;
   return (
-    <a href={"#"} className={cn(className, styles.link)} onClick={onClick}>
+    <a className={cn(className, styles.link)} onClick={onClick}>
       <img
         src={`${process.env.PUBLIC_URL}/image/icons-nav/${text}.png`}
         className={styles.img}

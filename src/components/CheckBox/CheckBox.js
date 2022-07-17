@@ -13,7 +13,12 @@ const CheckBox = ({ text }) => {
           type="checkbox"
         />
         <span className={cn(styles.checkbox, text && styles.lightBg)}>
-          {check && <img src="/image/other-icons/arrow.png" alt="checkbox" />}
+          {check && (
+            <img
+              src={`${process.env.PUBLIC_URL}/image/other-icons/arrow.png`}
+              alt={"arrow"}
+            />
+          )}
         </span>
       </label>
       {text && text}
