@@ -2,9 +2,9 @@
 
 
 ## The technology used:
-Css Modules , React.
+Css Modules , React,Formik
 
 ## Additional information:
 The application is adapted to different extensions.
-
+Menu  on the mobile device clickable.
 Thank you for your attention !

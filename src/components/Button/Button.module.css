@@ -1,58 +1,29 @@
-.button{
-    padding: 10px 20px;
+.button {
+    padding: 14px 23px;
     cursor: pointer;
-}
-.button:hover{
-    opacity: 0.75;
-}
-.CloseButton{
     color: white;
-    font-size: 30px;
-    background: none;
-    border: none;
-    cursor: pointer;
-}
-.closeButtonModal{
-    cursor: pointer;
-    color: black;
-    font-size: 25px;
-    background: none;
-    border: none;
-}
-.modalButtonOne{
-    padding: 10px 0;
-    margin-right: 10px;
-    width: 90px;
-    border-radius: 5px;
-    border: none;
-    color: white;
-    font-weight: 700;
-}
-.modalButtonTwo{
-    padding: 10px 0;
-    margin-right: 10px;
-    background: #300605;
-    border-radius: 6px;
-    border: none;
-    width: 60px;
-    color: white;
-    font-weight: 700;
-}
-.buttonForm {
-    width: 100%;
-    padding: 15px 0;
-    font-weight: bold;
-    font-size: 14px;
-    display: inline-block;
-    background: #6c757dc9;
-    border-radius: 5px;
-    color: #fff;
     text-transform: uppercase;
-    text-align: center;
-    cursor: pointer;
+    font-size: 18px;
     border: none;
 }
 
-.buttonForm:hover {
-    background-color: #6c757d;
+
+.longButton:after {
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 20px;
+    vertical-align: middle;
+    content: "⟶";
+    transition: transform .3s ease-out;
+
+}
+.longButton:hover:after{
+    transform: translateX(4px);
+
+}
+
+@media (max-width: 800px) {
+    .button {
+        padding: 5px 10px;
+    }
 }

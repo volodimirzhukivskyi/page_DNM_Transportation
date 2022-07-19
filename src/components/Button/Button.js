@@ -3,11 +3,11 @@ import styles from "./Button.module.css";
 import cn from "classnames";
 
 function Button(props) {
-  const { bgColor, children, onClick, className } = props;
+  const { disabled, children, onClick, className } = props;
   return (
     <button
+      disabled={disabled}
       className={cn(styles.button, className)}
-      style={{ backgroundColor: bgColor }}
       onClick={onClick}
     >
       {children}
