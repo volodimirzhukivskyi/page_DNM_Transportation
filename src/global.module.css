@@ -1,5 +1,5 @@
 .container{
-    max-width: 1440px;
+    width: 80%;
     margin: 0 auto;
 
 }
@@ -212,26 +212,4 @@ template {
     --font-family: "Open Sans", sans-serif;
 
 
-}
-@media (min-width: 1920px) {
-    .container {
-        max-width: 1320px;
-    }
-}
-@media (min-width: 768px) and (max-width: 1023px){
-    .container {
-        max-width: 720px;
-    }
-
-}
-@media (max-width: 768px) {
-    .container{
-        max-width: 375px;
-    }
-    .button{
-        display: none;
-    }
-    .container {
-        justify-content: space-around;
-    }
 }

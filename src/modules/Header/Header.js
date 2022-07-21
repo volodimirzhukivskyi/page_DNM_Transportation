@@ -1,31 +1,14 @@
-import Navigation from "../../components/Navigation/Navigation";
-import Button from "../../components/Button/Button";
 import styles from "./Header.module.css";
-import Link from "../../components/Link/Link";
 import globalStyles from "../../global.module.css";
+import { formatData } from "../../helpers/data";
+
 import cn from "classnames";
-const Header = ({ setIsOpen }) => {
+const Header = ({ data }) => {
   return (
     <header className={styles.header}>
       <div className={cn(globalStyles.container, styles.content)}>
-        <Link
-          className={styles.logo}
-          text={
-            <img src={`${process.env.PUBLIC_URL}/image/logo.png`} alt="logo" />
-          }
-        />
-        <Navigation className={styles.menu} />
-        <div className={styles.buttons}>
-          <Button className={styles.button}>TRack shipment</Button>
-          <Button className={styles.hideMenu} onClick={() => setIsOpen(true)}>
-            <p className={styles.text}>menu</p>
-            <div className={styles.linesContainer}>
-              <span className={styles.line}></span>
-              <span className={styles.line}></span>
-              <span className={styles.line}></span>
-            </div>
-          </Button>
-        </div>
+        <h2 className={styles.h2}>{data}</h2>
+        <h3 className={styles.h3}>{formatData(new Date())}</h3>
       </div>
     </header>
   );
